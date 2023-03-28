@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRunner.ExperiBankRunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-25T12:16:51" hostname="ASIF" time="55.243">
+  <properties/>
+  <testcase name="runScenario[0](&quot;user login&quot;, &quot;Optional[AppTest]&quot;)" classname="TestRunner.ExperiBankRunnerTest" time="55.243"/>
+  <system-out><![CDATA[
+@app
+Scenario Outline: user login              # src/test/resources/Features/experiBnakAutomation.feature:11
+  Given app apk is there                  # ApiStepDefinition.ExperiBankStepDefs.appApkIsThere()
+  When user enters 'company'and 'company' # ApiStepDefinition.ExperiBankStepDefs.userEntersUsernameAndPass(java.lang.String,java.lang.String)
+Hoyna
+  Then user will navigate to home screen  # ApiStepDefinition.ExperiBankStepDefs.userWillNavigateToHomeScreen()
+]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
